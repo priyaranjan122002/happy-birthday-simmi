@@ -15,25 +15,17 @@ export const siteContent: SiteContent = {
   bgMusicUrl: "./music/tum-se-hi.mp3",
   
   // Video file or featured tribute image
-  videoUrl: "./photos/photo-1.jpg",
+  videoUrl: "./video/tribute.mp4",
   videoPoster: "./photos/photo-1.jpg",
   videoCaption: "Tumhari har ek hasi, tumhara thoda sa gussa aur tumhare pyare nakhre mere dil ko sabse zyada bhaate hain.",
   videos: [
     {
       id: "v-1",
-      title: "Reel 1: 17 Sept Special",
-      tag: "Birthday Special",
-      url: "./photos/photo-1.jpg",
+      title: "Reel: Moments With Simmi ✨",
+      tag: "17 Sept Special Video",
+      url: "./video/tribute.mp4",
       poster: "./photos/photo-1.jpg",
-      caption: "Every single moment with you is etched permanently in my heart."
-    },
-    {
-      id: "v-2",
-      title: "Reel 2: Beautiful Memories",
-      tag: "Special Moments",
-      url: "./photos/photo-2.jpg",
-      poster: "./photos/photo-2.jpg",
-      caption: "Your radiant smile, your cute anger, and that innocent charm."
+      caption: "All our cherished memories together, woven into our favorite song."
     }
   ],
 
@@ -367,17 +359,17 @@ export const siteContent: SiteContent = {
 
   // ── Act 7: The Master Love Letter (From The Heart For Simmi) ────
   letter: {
-    title: "A Letter Straight From My Heart ❤️",
-    greeting: "To Meri Pyaari Simmi (Gussewali Bugge) ❤️,",
+    title: "Ek Baat Jo Dil Mein Thi ❤️",
+    greeting: "Dear Simmi,",
     paragraphs: [
-      "Happy Birthday Simmi! 🎂✨ Mele bache, I know aapko lagta hoga yeh sab maine AI se kiya hai aur fake sa hai sab... par sach yeh hai ki maine har ek photo, har ek cheez apne aap se khud select kari hai — jo aapke liye sabse best ho sakti thi meri jana.",
-      "Mujhe aaj bhi woh din achhe se yaad hai jab hum 3 saal pehle pehli baar mile the... bike par baithkar us cafe jana, aur ghanto bina ruke baatein karna. Aur woh late-night video calls, jahan screen par dekhte dekhte raat kab subah mein badal jaati thi pata hi nahi chalta tha.",
-      "Main jaanta hoon maine us waqt bohot badi galti ki thi jab maine breakup bol diya tha... Shayad us waqt mujhe samajh nahi aaya, par sach yeh hai ki inn 3 saalon mein ek bhi din aisa nahi gaya jab maine tumhe apne dil se yaad na kiya ho.",
-      "Tum thoda gussa jaldi ho jaati ho, jaanta hoon main 😉 Par sach bataun toh tumhara woh cute sa gussa aur uske baad ki smile hi toh mere dil ke sabse kareeb hai.",
-      "Jab 3 saal baad ab wapis humari baat shuru hui, toh mere chehre par ek ajeeb sa sukoon aa gaya. Mujhe nahi pata Simmi ki tumhare dil mein abhi mere liye kya hai, aur main koi zabardasti ya pressure nahi daalna chahta... Bas itna batana chahta hoon ki main tumse sachha aur bepanah pyaar karta hoon.",
-      "Bhagwan tumhe duniya ki saari khushiyan, success aur sukoon de. May this 17th September be the most magical day for you. Mele bache ko bhagwan saari khushiyan de... Happy birthday baby girl! 👶❤️✨"
+      "Happy Birthday Simmi! 🎂✨ Aaj 17 September hai, aur main bas chahta tha ki tumhara yeh din sach mein thoda sa special aur memorable bane.",
+      "Aaj se lagbhag 3 saal pehle jab hum pehli baar mile the, bike par us cafe jana aur ghanto bina ruke baatein karna... woh lamha mujhe aaj bhi bilkul kal jaisa lagta hai. Aur woh late-night video calls, jahan screen par dekhte dekhte poori raat nikal jaati thi par baatein kabhi khatam nahi hoti thi.",
+      "Phir ek waqt aaya jab maine bina soche-samjhe breakup bol diya... Sach kahun toh woh meri zindagi ki sabse badi galti thi. Us waqt shayad main itna samajhdaar nahi tha, par inn 3 saalon ke sannaate mein maine har ek din samjha ki tum mere liye kya thi aur kya ho.",
+      "Jaanta hoon tumhein gussa bohot jaldi aata hai, thodi ziddi bhi ho 😉 Par sach bataun? Tumhara woh gussa, tumhari woh narazgi aur tumhare nakhre... mujhe tumhari har ek cheez se pyaar hai.",
+      "3 saal baad jab abhi humari wapis baat shuru hui, toh sach mein dil ko ek ajeeb sa sukoon mila. Mujhe nahi pata Simmi ki tumhare dil mein mere liye kya hai, tum kya feel karti ho... Aur main tumpar koi pressure ya haq nahi jata raha. Bas itna batana chahta tha ki mere dil mein tumhare liye jo pyaar tab tha, woh aaj bhi utna hi saccha aur bepanah hai.",
+      "Bas hamesha aise hi muskurati rehna. Bhagwan kare tumhe zindagi ki har woh khushi mile jo tum deserve karti ho. Once again, a very Happy Birthday Simmi. ❤️"
     ],
-    signOff: "Hamesha Dil Se Tumhara,",
-    sender: "Tumhara Bike Partner & Forever Well-wisher ❤️"
+    signOff: "Dil se hamesha tumhara bhala chahne wala,",
+    sender: "Tumhara Cafe & Bike Partner ✨"
   }
 };
