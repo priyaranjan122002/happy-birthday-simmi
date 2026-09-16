@@ -28,7 +28,7 @@ const TEASER_QUOTES = [
 
 export const MidnightLockGate: React.FC<MidnightLockGateProps> = ({
   herName,
-  targetTimestamp = '2026-09-15T00:00:00+05:30',
+  targetTimestamp = '2026-09-17T00:00:00+05:30',
   onUnlock
 }) => {
   const [timeLeft, setTimeLeft] = useState<TimeRemaining>({
@@ -190,7 +190,7 @@ export const MidnightLockGate: React.FC<MidnightLockGateProps> = ({
 
             <div className="flex justify-center mb-3">
               <span className="text-[11px] tracking-[0.25em] uppercase font-semibold text-[#A699BF] bg-[#2A203F]/80 px-4 py-1 rounded-full border border-white/10">
-                15 September Special ✨
+                17 September Special ✨
               </span>
             </div>
 
@@ -198,7 +198,7 @@ export const MidnightLockGate: React.FC<MidnightLockGateProps> = ({
               A Birthday Surprise For
             </h1>
             <p className="font-handwriting text-3xl sm:text-4xl text-[#E8C374] mb-3 drop-shadow-md">
-              Meri Lado ❤️
+              {herName} ❤️
             </p>
 
             <p className="text-xs sm:text-sm text-[#C4B8D8] font-light mb-6 px-2">

@@ -55,8 +55,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         seconds: Math.floor((differenceElapsed / 1000) % 60),
       });
 
-      // Countdown to 15 September 2026 00:00:00 IST
-      const bdayTarget = new Date('2026-09-15T00:00:00+05:30').getTime();
+      // Countdown to 17 September 2026 00:00:00 IST
+      const bdayTarget = new Date('2026-09-17T00:00:00+05:30').getTime();
       const diffCountdown = bdayTarget - now;
 
       if (diffCountdown <= 0) {
@@ -144,7 +144,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       >
         <Calendar size={15} className="text-[#E8C374]" />
         <span className="font-semibold tracking-wide uppercase">
-          15 September 2026 • The Queen's Birthday Celebration
+          {birthdayDate} • The Queen's Birthday Celebration
         </span>
         <Sparkles size={15} className="text-[#F472B6] animate-pulse" />
       </motion.div>
@@ -210,7 +210,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <Clock size={15} />
             <span>
               {activeTimerTab === 'countdown'
-                ? (countdown.isBirthday ? "Today is 15 September 2026 — Happy Birthday!" : "Counting down to 15 September 2026")
+                ? (countdown.isBirthday ? `Today is ${birthdayDate} — Happy Birthday!` : `Counting down to ${birthdayDate}`)
                 : "Every Single Second Spent Loving You"}
             </span>
           </div>
@@ -273,7 +273,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
           <p className="text-xs text-[#9E92B5] mt-4 font-light flex items-center justify-center gap-1.5">
             <Heart size={12} className="text-[#F472B6] fill-[#F472B6]" />
-            {activeTimerTab === 'countdown' ? 'Waiting for 15 September 2026 ✨' : '...and counting for infinity.'}
+            {activeTimerTab === 'countdown' ? `Waiting for ${birthdayDate} ✨` : '...and counting for infinity.'}
           </p>
         </div>
       </motion.div>

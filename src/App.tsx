@@ -17,7 +17,7 @@ export const App: React.FC = () => {
       if (params.get('preview') === 'true' || params.get('unlock') === 'true' || params.get('test') === 'true') {
         return true;
       }
-      const targetTime = new Date('2026-09-15T00:00:00+05:30').getTime();
+      const targetTime = new Date(siteContent.birthdayTargetTimestamp).getTime();
       return Date.now() >= targetTime;
     }
     return false;
@@ -51,7 +51,7 @@ export const App: React.FC = () => {
       {!isUnlocked && (
         <MidnightLockGate
           herName={siteContent.herName}
-          targetTimestamp="2026-09-15T00:00:00+05:30"
+          targetTimestamp={siteContent.birthdayTargetTimestamp}
           onUnlock={() => setIsUnlocked(true)}
         />
       )}

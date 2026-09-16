@@ -98,7 +98,7 @@ export const BirthdayFinale: React.FC<BirthdayFinaleProps> = ({ herName, birthda
       <div className="text-center mb-28">
         <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#201832] border border-[#E8C374]/30 text-[#E8C374] text-xs uppercase tracking-widest font-semibold mb-3">
           <Cake size={14} className="text-[#F472B6]" />
-          <span>The Birthday Tradition • 15 September</span>
+          <span>The Birthday Tradition • {birthdayDate}</span>
         </div>
         <h2 className="text-3xl sm:text-5xl font-serif-luxury text-white mb-3">
           Make A Wish, <span className="gold-gradient-text italic font-serif">{herName}</span>

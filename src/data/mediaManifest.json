@@ -1,11 +1,8 @@
 {
-  "updatedAt": "2026-09-11T15:58:24.769Z",
-  "photosCount": 34,
-  "hasVideo": true,
-  "videosCount": 2,
-  "videoUrls": [
-    "/video/tribute.mp4",
-    "/video/tribute-2.mp4"
-  ],
+  "updatedAt": "2026-09-16T15:00:45.055Z",
+  "photosCount": 21,
+  "hasVideo": false,
+  "videosCount": 0,
+  "videoUrls": [],
   "hasAudio": false
 }

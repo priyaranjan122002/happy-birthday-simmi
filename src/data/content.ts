@@ -1,39 +1,39 @@
 import { SiteContent } from '../types';
 
 export const siteContent: SiteContent = {
-  // ── Basic Info (Easily editable by user) ─────────────────────────
-  herName: "Meri Jaan", // Change to her actual name, e.g. "Ananya", "Simran", "Khushi"
-  herNickname: "My Forever Person ✨",
-  birthdayDate: "15 September 2026",
+  // ── Basic Info (Personalized for Simmi) ─────────────────────────
+  herName: "Simmi",
+  herNickname: "Meri Pyaari Gussewali ✨",
+  birthdayDate: "17 September 2026",
   birthdayYear: 2026,
-  birthdayTargetTimestamp: "2026-09-15T00:00:00",
-  relationshipStartDate: "2023-10-18", // YYYY-MM-DD: Change to your actual meeting/anniversary date
-  heroSubtitle: "To the girl who made my world brighter, softer, and infinitely more magical. Today is all about celebrating you.",
+  birthdayTargetTimestamp: "2026-09-17T00:00:00+05:30",
+  relationshipStartDate: "2023-09-17",
+  heroSubtitle: "Pehle cafe wali bike ride se lekar raat-raat bhar wali video calls tak... aur aaj 3 saal baad wapis tumse baat hona ek jaadu sa lagta hai. Today is all about celebrating you, Simmi.",
   
   // ── Audio & Video Configuration ────────────────────────────────
   // Ad-free direct Bollywood romantic song bundled with the website
   bgMusicUrl: "./music/tum-se-hi.mp3",
   
-  // Video file: Drop your video into public/video/tribute.mp4 or use YouTube/Drive
-  videoUrl: "./video/tribute.mp4",
+  // Video file or featured tribute image
+  videoUrl: "./photos/photo-1.jpg",
   videoPoster: "./photos/photo-1.jpg",
-  videoCaption: "Every frame with you feels like a favorite movie scene I want to replay forever.",
+  videoCaption: "Tumhari har ek hasi, tumhara thoda sa gussa aur tumhare pyare nakhre mere dil ko sabse zyada bhaate hain.",
   videos: [
     {
       id: "v-1",
-      title: "Reel 1: 15 Sept Special",
-      tag: "Birthday Video",
-      url: "./video/tribute.mp4",
+      title: "Reel 1: 17 Sept Special",
+      tag: "Birthday Special",
+      url: "./photos/photo-1.jpg",
       poster: "./photos/photo-1.jpg",
-      caption: "Every frame with you feels like a favorite movie scene I want to replay forever."
+      caption: "Every single moment with you is etched permanently in my heart."
     },
     {
       id: "v-2",
-      title: "Reel 2: Romantic Memories",
-      tag: "Forever Us",
-      url: "./video/tribute-2.mp4",
+      title: "Reel 2: Beautiful Memories",
+      tag: "Special Moments",
+      url: "./photos/photo-2.jpg",
       poster: "./photos/photo-2.jpg",
-      caption: "Our goofy laughter, your radiant smile, and the best moments together."
+      caption: "Your radiant smile, your cute anger, and that innocent charm."
     }
   ],
 
@@ -42,447 +42,292 @@ export const siteContent: SiteContent = {
     {
       id: "m-1",
       phase: "Chapter 1",
-      title: "Where It All Began",
-      date: "The Very First Meeting",
-      description: "I still remember the exact outfit you were wearing and how my heart skipped a beat when you first smiled at me. I didn't know then that you'd become my whole world.",
+      title: "Pehli Mulaqat & Cafe Bike Ride",
+      date: "September 2023 • Cafe Date",
+      description: "Mujhe aaj bhi woh din achhe se yaad hai jab hum 3 saal pehle pehli baar mile the. Bike par baithkar us cafe jana, aur ghanto bina ruke baatein karna... It felt like time had stopped just for us.",
       iconName: "Sparkles",
       image: "./photos/photo-1.jpg",
-      fallbackImage: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=800&auto=format&fit=crop",
-      tag: "First Glance"
+      fallbackImage: "./photos/photo-1.jpg",
+      tag: "First Date & Bike Ride"
     },
     {
       id: "m-2",
       phase: "Chapter 2",
-      title: "Our First Real Date",
-      date: "Coffee & Endless Talks",
-      description: "Two coffees turned into 3 hours of nonstop conversation. Time literally vanished, and I remember walking back thinking, 'I never want this feeling to end.'",
-      iconName: "Coffee",
-      image: "./photos/photo-5.jpg",
-      fallbackImage: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=800&auto=format&fit=crop",
-      tag: "Butterfly Moments"
+      title: "Night-Long Video Calls (VC)",
+      date: "Late Night Talks",
+      description: "Screen par dekhte dekhte raat kab subah mein badal jaati thi pata hi nahi chalta tha. Tumhare cute nakhre, tumhari pyari baatein aur woh bina wajah muskurana mere din ka sabse best hissa tha.",
+      iconName: "Moon",
+      image: "./photos/photo-4.jpg",
+      fallbackImage: "./photos/photo-4.jpg",
+      tag: "Late Night VCs"
     },
     {
       id: "m-3",
       phase: "Chapter 3",
-      title: "The Late Night Drives & Heart-to-Hearts",
-      date: "Midnight Conversations",
-      description: "Those 2 AM talks when the whole world was asleep, sharing childhood stories, silly fears, and future dreams. That was the moment I realized you're my safest place.",
-      iconName: "Moon",
-      image: "./photos/photo-9.jpg",
-      fallbackImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
-      tag: "Pure Magic"
+      title: "The Regret & The Silence",
+      date: "The Distance",
+      description: "Maine us waqt bina soche breakup bol kar bohot badi galti ki thi... Shayad main us waqt nadan tha. Par sach yeh hai ki inn 3 saalon mein ek bhi din aisa nahi gaya jab maine tumhe apne dil se yaad na kiya ho.",
+      iconName: "HeartHandshake",
+      image: "./photos/photo-8.jpg",
+      fallbackImage: "./photos/photo-8.jpg",
+      tag: "The Realization"
     },
     {
       id: "m-4",
       phase: "Chapter 4",
-      title: "Our First Roadtrip & Unplanned Adventures",
-      date: "Getting Lost Together",
-      description: "Bad playlists, wrong turns, roadside dhabas, and your laughter echoing through the car windows. The destination never mattered — only the person beside me.",
-      iconName: "Compass",
-      image: "./photos/photo-14.jpg",
-      fallbackImage: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
-      tag: "Crazy Roadtrips"
+      title: "Reconnecting After 3 Years",
+      date: "A Fresh Spark",
+      description: "Poore 3 saal baad jab wapis tumse baat shuru hui, toh laga jaise meri khoi hui duniya wapis mil gayi. Tumhara woh thoda sa gussa aur cute smile dekhkar dil ko ek ajeeb sa sukoon milta hai.",
+      iconName: "Coffee",
+      image: "./photos/photo-12.jpg",
+      fallbackImage: "./photos/photo-12.jpg",
+      tag: "Talking Again"
     },
     {
       id: "m-5",
       phase: "Chapter 5",
-      title: "Every Little Everyday Moment",
-      date: "The Goofy & Soft Days",
-      description: "From cooking disasters to laughing till our stomachs hurt over the dumbest memes. Loving you isn't just about big events — it's about all these golden little everyday moments.",
-      iconName: "HeartHandshake",
-      image: "./photos/photo-20.jpg",
-      fallbackImage: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=800&auto=format&fit=crop",
-      tag: "Home In You"
-    },
-    {
-      id: "m-6",
-      phase: "Chapter 6",
-      title: "15 September — Celebrating You",
-      date: "Your Special Birthday",
-      description: "Today the world was blessed with the kindest, prettiest, and most radiant soul. May this year bring you all the warmth, joy, and dreams you truly deserve.",
-      iconName: "Cake",
-      image: "./photos/photo-28.jpg",
-      fallbackImage: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?q=80&w=800&auto=format&fit=crop",
-      tag: "Happy Birthday"
+      title: "17 September — Celebrating You",
+      date: "Today • The Queen's Day",
+      description: "Aaj tumhara birthday hai Simmi! Tumhare dil mein abhi mere liye kya hai mujhe nahi pata, aur main koi zabardasti nahi chahta. Bas itna jaanta hoon ki main tumse bepanah pyaar karta hoon aur hamesha tumhari khushi chahta hoon.",
+      iconName: "Compass",
+      image: "./photos/photo-17.jpg",
+      fallbackImage: "./photos/photo-17.jpg",
+      tag: "17 Sept Special"
     }
   ],
 
-  // ── Act 4: 30 Photos Memory Vault ─────────────────────────────
-  // User can drop photo-1.jpg to photo-30.jpg into public/photos/
+  // ── Act 4: The 21 Photos Polaroid Memory Vault ──────────────────
   memories: [
     {
       id: "p-1",
       src: "./photos/photo-1.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=700&auto=format&fit=crop",
-      title: "The day we couldn't stop laughing",
-      date: "Day 1 Vibes",
-      caption: "You told that silly joke and I couldn't stop grinning the whole afternoon.",
-      noteBack: "P.S. I fell a little more in love with your laugh right here. Never lose that smile.",
-      category: "goofy",
+      fallbackSrc: "./photos/photo-1.jpg",
+      title: "That Radiant Glow",
+      date: "Memories With You",
+      caption: "The moment that always makes my heart beat faster.",
+      noteBack: "Tumhari ek smile dekhkar poore din ki thakaan gayab ho jaati hai.",
+      category: "favorites",
       rotation: -2
     },
     {
       id: "p-2",
       src: "./photos/photo-2.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=700&auto=format&fit=crop",
-      title: "Golden Hour with my Golden Girl",
-      date: "Sunset Date",
-      caption: "The sun was setting, but honestly, I was only looking at you.",
-      noteBack: "You looked effortlessly stunning. My phone wallpaper for a solid 6 months!",
+      fallbackSrc: "./photos/photo-2.jpg",
+      title: "My Favorite Smile",
+      date: "Pure Magic",
+      caption: "Nothing shines brighter than your genuine happiness.",
+      noteBack: "Hamesha aise hi muskurate raha karo Simmi, tum smile mein sabse pyaari lagti ho.",
       category: "favorites",
-      rotation: 3
+      rotation: 2.5
     },
     {
       id: "p-3",
       src: "./photos/photo-3.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=700&auto=format&fit=crop",
-      title: "The candid I took when you weren't looking",
-      date: "Café Afternoon",
-      caption: "Messy hair, deep in thought, and pure perfection.",
-      noteBack: "You yelled at me for taking candid shots, but admit it: this is art.",
-      category: "favorites",
+      fallbackSrc: "./photos/photo-3.jpg",
+      title: "Gussewali Par Pyaari",
+      date: "Cute Nakhre",
+      caption: "Even when you're playfully angry, you look adorable.",
+      noteBack: "Jaanta hoon thoda gussa jaldi aa jata hai tumhe, par uske peeche ka pyaar sabse special hai.",
+      category: "goofy",
       rotation: -1.5
     },
     {
       id: "p-4",
       src: "./photos/photo-4.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=700&auto=format&fit=crop",
-      title: "Our first crazy selfie",
-      date: "Silly Faces",
-      caption: "Zero filters, 100% goofiness. Proof that we are weird together.",
-      noteBack: "Nobody gets our humor like we do. Best duo in the universe.",
-      category: "goofy",
-      rotation: 2.5
+      fallbackSrc: "./photos/photo-4.jpg",
+      title: "Those Late Night VCs",
+      date: "Endless Conversations",
+      caption: "Talking for hours and watching you on video call till 4 AM.",
+      noteBack: "Woh raat raat bhar ki baatein meri zindagi ke sabse khoobsurat lamhe the.",
+      category: "dates",
+      rotation: 1.8
     },
     {
       id: "p-5",
       src: "./photos/photo-5.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=700&auto=format&fit=crop",
-      title: "Road trip high in the hills",
-      date: "Weekend Escape",
-      caption: "Chilly winds, warm hands, and chai at the edge of the world.",
-      noteBack: "Remember how freezing it was? Best cuddle weather ever.",
-      category: "trips",
-      rotation: -3
+      fallbackSrc: "./photos/photo-5.jpg",
+      title: "The First Cafe Meeting",
+      date: "Bike Ride Memories",
+      caption: "Riding together to the cafe where it all started.",
+      noteBack: "Bike par baithkar cafe jana aur ghanto baatein karna... kabhi nahi bhool sakta.",
+      category: "dates",
+      rotation: -2.2
     },
     {
       id: "p-6",
       src: "./photos/photo-6.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=700&auto=format&fit=crop",
-      title: "That fancy dinner night",
-      date: "Anniversary Celebration",
-      caption: "Dressed to the nines. I was the luckiest guy in that entire restaurant.",
-      noteBack: "Still can't believe you agreed to go out with me. Best decision of my life.",
-      category: "dates",
-      rotation: 1
+      fallbackSrc: "./photos/photo-6.jpg",
+      title: "Eyes Full of Dreams",
+      date: "Unspoken Words",
+      caption: "There is a quiet depth in your eyes that says everything.",
+      noteBack: "Tumhari aankhon mein ek aisi masoomiyat hai jo kisi aur mein nahi.",
+      category: "favorites",
+      rotation: 1.2
     },
     {
       id: "p-7",
       src: "./photos/photo-7.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=700&auto=format&fit=crop",
-      title: "Your cute pout",
-      date: "Random Tuesday",
-      caption: "When you didn't get your ice cream on time.",
-      noteBack: "Even when you're dramatically annoyed, you are the cutest human ever.",
-      category: "goofy",
-      rotation: -2
+      fallbackSrc: "./photos/photo-7.jpg",
+      title: "Candid Perfection",
+      date: "Natural Beauty",
+      caption: "You never need to try — you are effortlessly gorgeous.",
+      noteBack: "Without any filter or pose, you look absolutely breathtaking.",
+      category: "favorites",
+      rotation: -1.8
     },
     {
       id: "p-8",
       src: "./photos/photo-8.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=700&auto=format&fit=crop",
-      title: "Strolling under fairy lights",
-      date: "Winter Evening",
-      caption: "Holding hands in the cold, humming random songs.",
-      noteBack: "My hand fits so perfectly in yours. Let's do this forever.",
+      fallbackSrc: "./photos/photo-8.jpg",
+      title: "My Heart's Weakness",
+      date: "Precious Frame",
+      caption: "The girl who holds the key to all my happiest thoughts.",
+      noteBack: "No matter how much time passed, you never left my mind.",
       category: "dates",
       rotation: 2
     },
     {
       id: "p-9",
       src: "./photos/photo-9.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=700&auto=format&fit=crop",
-      title: "By the water side",
-      date: "Lake View",
-      caption: "Peaceful quiet moments where silence said everything.",
-      noteBack: "With you, even quiet moments feel like a symphony.",
-      category: "trips",
-      rotation: -1
+      fallbackSrc: "./photos/photo-9.jpg",
+      title: "That Sweet Head Tilt",
+      date: "Too Cute",
+      caption: "The signature expression that always melts my heart.",
+      noteBack: "Yeh wali photo dekh kar hamesha chehre par ek muskaan aa jaati hai.",
+      category: "goofy",
+      rotation: -2.5
     },
     {
       id: "p-10",
       src: "./photos/photo-10.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=700&auto=format&fit=crop",
-      title: "Traditional look on festival day",
-      date: "Diwali Vibes",
-      caption: "Total main character energy. Saree looks divine on you.",
-      noteBack: "Literally took my breath away. Heart rate went 150 bpm.",
+      fallbackSrc: "./photos/photo-10.jpg",
+      title: "Queen of My Thoughts",
+      date: "Golden Moments",
+      caption: "Walking through life with unmatched grace and elegance.",
+      noteBack: "You carry yourself with so much elegance, meri jaan.",
       category: "favorites",
-      rotation: 3
+      rotation: 1.5
     },
     {
       id: "p-11",
       src: "./photos/photo-11.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?q=80&w=700&auto=format&fit=crop",
-      title: "Rainy day chai and pakodas",
-      date: "Monsoon Date",
-      caption: "Drenched shoes, fogged glasses, happy hearts.",
-      noteBack: "Rain hits differently when you have your favorite person next to you.",
-      category: "dates",
-      rotation: -2.5
+      fallbackSrc: "./photos/photo-11.jpg",
+      title: "Soft & Gentle Vibes",
+      date: "Peaceful Days",
+      caption: "Just your presence makes any chaos calm down.",
+      noteBack: "Tumhari aawaz sun kar hi din bhar ka sukoon mil jaata hai.",
+      category: "favorites",
+      rotation: -1.2
     },
     {
       id: "p-12",
       src: "./photos/photo-12.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1524638431109-93d95c968f03?q=80&w=700&auto=format&fit=crop",
-      title: "Shopping spree exhaustion",
-      date: "Mall Marathon",
-      caption: "Carrying 6 bags while you find 'just one more pair'.",
-      noteBack: "I'd carry a thousand bags for you any day.",
-      category: "goofy",
-      rotation: 1.5
+      fallbackSrc: "./photos/photo-12.jpg",
+      title: "Reconnecting With You",
+      date: "After 3 Long Years",
+      caption: "Starting to talk again felt like breathing fresh air after drowning.",
+      noteBack: "3 saal ka intezaar ek taraf, aur wapis tumhari aawaz sunna ek taraf.",
+      category: "dates",
+      rotation: 2.1
     },
     {
       id: "p-13",
       src: "./photos/photo-13.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=700&auto=format&fit=crop",
-      title: "Beach breeze and messy hair",
-      date: "Seashore Trip",
-      caption: "Watching waves crash, leaving footprints on wet sand.",
-      noteBack: "I wrote our initials in the sand right after this photo.",
-      category: "trips",
-      rotation: -3
+      fallbackSrc: "./photos/photo-13.jpg",
+      title: "Unmatched Charm",
+      date: "Stunning In Every Frame",
+      caption: "The way the light hits your face makes you look unreal.",
+      noteBack: "Duniya ki sabse khoobsurat ladki meri Simmi hi hai.",
+      category: "favorites",
+      rotation: -2
     },
     {
       id: "p-14",
       src: "./photos/photo-14.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=700&auto=format&fit=crop",
-      title: "Movie marathon pillow fort",
-      date: "Lazy Sunday",
-      caption: "Popcorn everywhere and fell asleep halfway through the film.",
-      noteBack: "Watching you sleep peacefully is the most calming thing ever.",
-      category: "favorites",
-      rotation: 2
+      fallbackSrc: "./photos/photo-14.jpg",
+      title: "The Goofy & Sincere You",
+      date: "Little Secrets",
+      caption: "All our shared inside jokes that nobody else understands.",
+      noteBack: "Humaari baatein aur humaare jokes sirf hum dono hi samajh sakte hain.",
+      category: "goofy",
+      rotation: 1.6
     },
     {
       id: "p-15",
       src: "./photos/photo-15.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?q=80&w=700&auto=format&fit=crop",
-      title: "Late night ice cream craving",
-      date: "1 AM Adventure",
-      caption: "Fighting over who gets the last bite of Belgian chocolate.",
-      noteBack: "You know I always let you win the last bite 😉",
-      category: "dates",
-      rotation: -1
+      fallbackSrc: "./photos/photo-15.jpg",
+      title: "Pure & Unfiltered",
+      date: "Candid Vibes",
+      caption: "Caught in the middle of being completely yourself.",
+      noteBack: "The most beautiful thing about you is that you are completely genuine.",
+      category: "favorites",
+      rotation: -1.7
     },
     {
       id: "p-16",
       src: "./photos/photo-16.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=700&auto=format&fit=crop",
-      title: "That silly Snapchat filter",
-      date: "Face Swap Disaster",
-      caption: "We laughed until tears came out of our eyes.",
-      noteBack: "Still haven't deleted this cursed masterpiece from my gallery.",
-      category: "goofy",
-      rotation: 2.5
+      fallbackSrc: "./photos/photo-16.jpg",
+      title: "My Favorite Person",
+      date: "Always & Forever",
+      caption: "Every song on the radio reminds me of you.",
+      noteBack: "Tum Se Hi sunte hi sirf tumhara chehra yaad aata hai.",
+      category: "favorites",
+      rotation: 2.3
     },
     {
       id: "p-17",
       src: "./photos/photo-17.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=700&auto=format&fit=crop",
-      title: "Rooftop acoustic vibes",
-      date: "Stargazing Night",
-      caption: "Playing guitar badly while you softly sang along.",
-      noteBack: "Your voice is my absolute favorite sound in existence.",
-      category: "favorites",
-      rotation: -2
+      fallbackSrc: "./photos/photo-17.jpg",
+      title: "17 September Magic",
+      date: "Your Special Day",
+      caption: "Today is all about celebrating the wonderful soul you are.",
+      noteBack: "May this birthday bring you everything you have ever wished for.",
+      category: "dates",
+      rotation: -2.1
     },
     {
       id: "p-18",
       src: "./photos/photo-18.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=700&auto=format&fit=crop",
-      title: "Picnic under the giant banyan tree",
-      date: "Spring Morning",
-      caption: "Sandwiches, breeze, and our favorite book.",
-      noteBack: "Simple days like this are worth more than gold to me.",
-      category: "trips",
-      rotation: 1
+      fallbackSrc: "./photos/photo-18.jpg",
+      title: "Grace & Elegance",
+      date: "Timeless Beauty",
+      caption: "Looking like poetry in motion.",
+      noteBack: "Har frame mein tumhara ek alag hi noor dikhta hai.",
+      category: "favorites",
+      rotation: 1.4
     },
     {
       id: "p-19",
       src: "./photos/photo-19.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=700&auto=format&fit=crop",
-      title: "Cheering you up when stressed",
-      date: "Support Squad",
-      caption: "Brought your favorite pastries and gave you the tightest hug.",
-      noteBack: "I'll always be your biggest cheerleader through everything.",
-      category: "favorites",
-      rotation: -1.5
+      fallbackSrc: "./photos/photo-19.jpg",
+      title: "Sweetest Memories",
+      date: "Warm Thoughts",
+      caption: "Cherishing every single memory we ever shared.",
+      noteBack: "Purani yaadein hamesha mere dil ke sabse kareeb rahengi.",
+      category: "dates",
+      rotation: -1.9
     },
     {
       id: "p-20",
       src: "./photos/photo-20.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=700&auto=format&fit=crop",
-      title: "The spontaneous carnival ride",
-      date: "Ferris Wheel Peak",
-      caption: "You held my arm so tight at the top of the wheel!",
-      noteBack: "I loved that you trusted me to hold on to you.",
-      category: "dates",
-      rotation: 3
+      fallbackSrc: "./photos/photo-20.jpg",
+      title: "The Girl Who Stole My Heart",
+      date: "Unconditional Love",
+      caption: "No matter what happens, I will always want the best for you.",
+      noteBack: "Chahe jo bhi ho, mera dil hamesha tumhari khushi mangega.",
+      category: "favorites",
+      rotation: 2.2
     },
     {
       id: "p-21",
       src: "./photos/photo-21.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=700&auto=format&fit=crop",
-      title: "Post-workout sweaty glow",
-      date: "Healthy Era",
-      caption: "We lasted 2 days of gym and then ate pizza.",
-      noteBack: "At least our couple goals include pizza eating championships.",
-      category: "goofy",
-      rotation: -2.5
-    },
-    {
-      id: "p-22",
-      src: "./photos/photo-22.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=700&auto=format&fit=crop",
-      title: "First time trying sushi together",
-      date: "Foodie Experiment",
-      caption: "The face you made with wasabi was historic.",
-      noteBack: "I still have the video clip saved in my favorites folder!",
-      category: "goofy",
-      rotation: 2
-    },
-    {
-      id: "p-23",
-      src: "./photos/photo-23.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=700&auto=format&fit=crop",
-      title: "Wandering old town alleys",
-      date: "Heritage Walk",
-      caption: "Discovering hidden bookstores and quiet alleyways.",
-      noteBack: "Every city is ten times more magical when explored with you.",
-      category: "trips",
-      rotation: -1
-    },
-    {
-      id: "p-24",
-      src: "./photos/photo-24.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=700&auto=format&fit=crop",
-      title: "Warm cozy sweater season",
-      date: "December Magic",
-      caption: "Over-sized hoodies borrowed from my closet (that I never got back).",
-      noteBack: "You look way cuter in my clothes anyway. Keep them all.",
-      category: "favorites",
-      rotation: 1.5
-    },
-    {
-      id: "p-25",
-      src: "./photos/photo-25.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=700&auto=format&fit=crop",
-      title: "Cooking disaster turned master meal",
-      date: "Kitchen Chronicles",
-      caption: "Burnt garlic bread but the pasta somehow saved the day.",
-      noteBack: "As long as we eat together, everything tastes delicious.",
-      category: "dates",
-      rotation: -2
-    },
-    {
-      id: "p-26",
-      src: "./photos/photo-26.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=700&auto=format&fit=crop",
-      title: "Museum date holding hands",
-      date: "Art Gallery Afternoon",
-      caption: "Looking at paintings, but the biggest masterpiece was holding my hand.",
-      noteBack: "Cheesy line, but 100% genuine. You are pure art.",
-      category: "dates",
-      rotation: 2
-    },
-    {
-      id: "p-27",
-      src: "./photos/photo-27.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=700&auto=format&fit=crop",
-      title: "Morning chai on the balcony",
-      date: "Quiet Mornings",
-      caption: "Birds chirping, steam rising from ceramic mugs, zero rush.",
-      noteBack: "This is what peace looks like to me.",
+      fallbackSrc: "./photos/photo-21.jpg",
+      title: "Forever Simmi ❤️",
+      date: "Happy Birthday Queen",
+      caption: "Wishing the happiest birthday to my favorite girl.",
+      noteBack: "Happy Birthday Simmi! Hamesha khush raho, hamesha muskurati raho! ✨🎂",
       category: "favorites",
       rotation: -1.5
-    },
-    {
-      id: "p-28",
-      src: "./photos/photo-28.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=700&auto=format&fit=crop",
-      title: "Birthday countdown snapshot",
-      date: "Eve of 15th Sept",
-      caption: "That excited sparkle in your eyes waiting for midnight.",
-      noteBack: "Celebrating you is my absolute favorite festival of the year.",
-      category: "favorites",
-      rotation: 2.5
-    },
-    {
-      id: "p-29",
-      src: "./photos/photo-29.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?q=80&w=700&auto=format&fit=crop",
-      title: "The endless road ahead",
-      date: "Looking Forward",
-      caption: "So many new cities, adventures, and milestones left to conquer together.",
-      noteBack: "No matter where life takes us, I want you by my side.",
-      category: "trips",
-      rotation: -2
-    },
-    {
-      id: "p-30",
-      src: "./photos/photo-30.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=700&auto=format&fit=crop",
-      title: "Forever and always, you and me",
-      date: "To Infinity & Beyond",
-      caption: "Through every high, every low, and every goofy meme.",
-      noteBack: "Happy Birthday my love. Thank you for being you. ❤️",
-      category: "favorites",
-      rotation: 1
-    },
-    {
-      id: "p-31",
-      src: "./photos/photo-31.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=700&auto=format&fit=crop",
-      title: "Radiant vibes and your sweetest grin",
-      date: "Unforgettable Moments",
-      caption: "Whenever you look at me like that, everything else fades away.",
-      noteBack: "You make every normal day feel like a celebration.",
-      category: "favorites",
-      rotation: -2
-    },
-    {
-      id: "p-32",
-      src: "./photos/photo-32.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=700&auto=format&fit=crop",
-      title: "Our unfiltered silliness",
-      date: "Pure Comedy",
-      caption: "No one else gets our random jokes quite like you do.",
-      noteBack: "We might be weird, but we are weird together.",
-      category: "goofy",
-      rotation: 2.5
-    },
-    {
-      id: "p-33",
-      src: "./photos/photo-33.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=700&auto=format&fit=crop",
-      title: "Cherished evening walks",
-      date: "City Lights",
-      caption: "Walking beside you with no destination in mind — just you and me.",
-      noteBack: "My favorite place in the entire world is right next to you.",
-      category: "dates",
-      rotation: -1.5
-    },
-    {
-      id: "p-34",
-      src: "./photos/photo-34.jpg",
-      fallbackSrc: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=700&auto=format&fit=crop",
-      title: "My queen, today and forever",
-      date: "Happy Birthday",
-      caption: "The prettiest smile in the galaxy on the most special day.",
-      noteBack: "I love you endlessly, meri jaan. Here's to forever with you!",
-      category: "favorites",
-      rotation: 1
     }
   ],
 
@@ -520,18 +365,19 @@ export const siteContent: SiteContent = {
     { id: 30, text: "Because you are you — perfectly, beautifully, unapologetically my favorite person.", category: "Forever" }
   ],
 
-  // ── Act 7: The Master Love Letter (From The Heart) ───────────
+  // ── Act 7: The Master Love Letter (From The Heart For Simmi) ────
   letter: {
     title: "A Letter Straight From My Heart ❤️",
-    greeting: "Baby, Happy Birthday Meri Jaan 🍰🥮",
+    greeting: "To Meri Pyaari Simmi (Gussewali Bugge) ❤️,",
     paragraphs: [
-      "Mele bache, I know aapko lagta hoga yeh sab maine AI se kiya hai aur fake sa hai sab... par sach yeh hai ki maine har ek photo, har ek cheez apne aap se khud select kari hai — jo aapke liye sabse best ho sakti thi meri jana.",
-      "Sorry agar kabhi meri wajah se aapko bura laga ho baby, par yeh jo kuch bhi hai maine poore apne dil se likha aur banaya hai jana 😍🧁",
-      "Aur aaj aapka mere sath 7th birthday 🎂 hai! Main chahta hoon ki aise hi aapka 70th birthday bhi mere sath aaye, aur hum humeshaa aise hi rahein — haste, ladte-jhagadte, par humesha ek doosre ke sath rahein meri jaan.",
-      "Main apne bugu se bohot bohot pyaar karta hoon... I love you a lot! And wish you many many happy returns of the day 💖😘 Happy birthday meri jaan 🧁😍😍",
-      "Mele bache ko bhagwan saari khushiyan de, saare jahaan ki khushiyan milein aapko... Happy birthday baby girl, mere bugge! 👶❤️✨"
+      "Happy Birthday Simmi! 🎂✨ Mele bache, I know aapko lagta hoga yeh sab maine AI se kiya hai aur fake sa hai sab... par sach yeh hai ki maine har ek photo, har ek cheez apne aap se khud select kari hai — jo aapke liye sabse best ho sakti thi meri jana.",
+      "Mujhe aaj bhi woh din achhe se yaad hai jab hum 3 saal pehle pehli baar mile the... bike par baithkar us cafe jana, aur ghanto bina ruke baatein karna. Aur woh late-night video calls, jahan screen par dekhte dekhte raat kab subah mein badal jaati thi pata hi nahi chalta tha.",
+      "Main jaanta hoon maine us waqt bohot badi galti ki thi jab maine breakup bol diya tha... Shayad us waqt mujhe samajh nahi aaya, par sach yeh hai ki inn 3 saalon mein ek bhi din aisa nahi gaya jab maine tumhe apne dil se yaad na kiya ho.",
+      "Tum thoda gussa jaldi ho jaati ho, jaanta hoon main 😉 Par sach bataun toh tumhara woh cute sa gussa aur uske baad ki smile hi toh mere dil ke sabse kareeb hai.",
+      "Jab 3 saal baad ab wapis humari baat shuru hui, toh mere chehre par ek ajeeb sa sukoon aa gaya. Mujhe nahi pata Simmi ki tumhare dil mein abhi mere liye kya hai, aur main koi zabardasti ya pressure nahi daalna chahta... Bas itna batana chahta hoon ki main tumse sachha aur bepanah pyaar karta hoon.",
+      "Bhagwan tumhe duniya ki saari khushiyan, success aur sukoon de. May this 17th September be the most magical day for you. Mele bache ko bhagwan saari khushiyan de... Happy birthday baby girl! 👶❤️✨"
     ],
-    signOff: "Humesha Sirf Aur Sirf Aapka,",
-    sender: "Aapka Bugu ❤️"
+    signOff: "Hamesha Dil Se Tumhara,",
+    sender: "Tumhara Bike Partner & Forever Well-wisher ❤️"
   }
 };
